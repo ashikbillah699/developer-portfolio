@@ -30,7 +30,7 @@ body {
     margin: 40px 0 0px 140px;
 }
 
-p {
+.left-half p {
     display: block;
     color: dimgray;
     font-size: 18px;
@@ -67,4 +67,79 @@ section {
     margin-top: 60px;
     background-image: url(images/dream-bg.png);
     background-position: right;
+}
+
+/* Experiences css */
+.Experiences {
+    margin-top: 60px;
+    display: block;
+}
+
+.Experiences h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+}
+
+.full-stack {
+    width: 40%;
+    float: left;
+    background-color: white;
+    margin: 38px 100px 100px 100px;
+    box-shadow: 5px 7px 40px grey;
+    border-left: 10px solid tomato;
+    border-radius: 5px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.full-stack h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 35px 0 35px 30px;
+}
+
+.full-stack h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    padding: 0 0 30px 30px;
+}
+
+.full-stack p {
+    color: dimgray;
+    font-size: 18px;
+    padding: 0px 0px 100px 30px;
+}
+
+
+.baby-stack {
+    width: 40%;
+    float: left;
+    background-color: white;
+    margin: 38px 0px 100px 0px;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 5px;
+    border-left: 10px solid tomato;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.baby-stack h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 35px 0 35px 30px;
+}
+
+.baby-stack h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    padding: 0 0 30px 30px;
+}
+
+.baby-stack p {
+    color: dimgray;
+    font-size: 18px;
+    padding: 0px 0px 155px 30px;
 }
