@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -43,6 +49,11 @@ p {
 
 .left-half img {
     margin: 0 0 0 80px;
+}
+
+section {
+    display: flex;
+    background-repeat: no-repeat;
 }
 
 .banner {
