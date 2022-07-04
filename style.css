@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* banner part css */
 .left-half {
     float: left;
     width: 50%;
@@ -16,7 +17,7 @@ body {
 .left-half h1 {
     font-size: 50px;
     font-weight: bold;
-    margin: 40px 0 0 80px;
+    margin: 40px 0 0 140px;
 }
 
 .name {
@@ -26,21 +27,21 @@ body {
 .left-half h3 {
     font-size: 24px;
     font-weight: bold;
-    margin: 40px 0 0px 80px;
+    margin: 40px 0 0px 140px;
 }
 
 p {
     display: block;
     color: dimgray;
     font-size: 18px;
-    padding: 20px 0px 40px 80px;
-    margin-right: 60px;
+    padding: 20px 0px 40px 140px;
+    margin-right: 50px;
 }
 
 .button {
     padding: 10px 40px;
-    margin: 40px 0 40px 80px;
-    background-color: brown;
+    margin: 40px 0 40px 140px;
+    background-color: rgb(176, 55, 55);
     color: white;
     font-weight: 700;
     text-decoration: none;
@@ -48,7 +49,7 @@ p {
 }
 
 .left-half img {
-    margin: 0 0 0 80px;
+    margin: 0 0 0 140px;
 }
 
 section {
@@ -58,4 +59,12 @@ section {
 
 .banner {
     background-image: url(images/top-banner.png);
+}
+
+/* dream big */
+
+#drem-big {
+    margin-top: 60px;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
 }
