@@ -143,3 +143,9 @@ section {
     font-size: 18px;
     padding: 0px 0px 155px 30px;
 }
+
+footer p {
+    text-align: center;
+    color: dimgray;
+    padding: 5px;
+}
